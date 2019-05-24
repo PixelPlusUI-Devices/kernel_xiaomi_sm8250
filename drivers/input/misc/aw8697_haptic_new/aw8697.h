@@ -352,6 +352,7 @@ struct aw8697 {
 	int index;
 	int vmax;
 	int gain;
+	int adj_level;
 	u16 new_gain;
 	unsigned char level;
 
